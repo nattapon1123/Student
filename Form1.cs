@@ -31,18 +31,24 @@ namespace StudentManagement
             Advisor advisor1 = new Advisor("Dr. Smith", "Computer Science");
             Advisor advisor2 = new Advisor("Prof. Johnson", "Mathematics");
             Advisor advisor3 = new Advisor("Dr. Lee", "Biology");
+            Advisor advisor4 = new Advisor("Prof. Davis", "Chemistry");
+            Advisor advisor5 = new Advisor("Dr. Williams", "Physics");
 
             advisors.Add(advisor1);
             advisors.Add(advisor2);
             advisors.Add(advisor3);
+            advisors.Add(advisor4);
+            advisors.Add(advisor5);
 
             cboAdvisor.Items.Add(advisor1);
             cboAdvisor.Items.Add(advisor2);
             cboAdvisor.Items.Add(advisor3);
+            cboAdvisor.Items.Add(advisor4);
+            cboAdvisor.Items.Add(advisor5);
 
             advisor1.AddStudent(new Student("000000000.0", "John Doe", "CS", advisor1, 2.11));
-            advisor1.AddStudent(new Student("111111111.1", "Jane Doe", "CS", advisor1, 3.5));
-            advisor2.AddStudent(new Student("222222222.2", "Jim Bean", "DS", advisor2, 3.75));
+            advisor1.AddStudent(new Student("000000000.0", "Jane Doe", "CS", advisor1, 3.5));
+            advisor2.AddStudent(new Student("000000000.0", "Jim Bean", "DS", advisor2, 3.75));
         }
 
         private void button1_Click(object sender, EventArgs e)

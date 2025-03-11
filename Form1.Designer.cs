@@ -177,11 +177,11 @@
             // 
             // btnAddAdvisor
             // 
-            btnAddAdvisor.Location = new Point(143, 207);
+            btnAddAdvisor.Location = new Point(143, 213);
             btnAddAdvisor.Name = "btnAddAdvisor";
-            btnAddAdvisor.Size = new Size(124, 38);
+            btnAddAdvisor.Size = new Size(98, 32);
             btnAddAdvisor.TabIndex = 15;
-            btnAddAdvisor.Text = "ใส่ชื่ออาจารย์เอง";
+            btnAddAdvisor.Text = "ใส่ชื่ออาจารย์";
             btnAddAdvisor.UseVisualStyleBackColor = true;
             btnAddAdvisor.Click += btnAddAdvisor_Click;
             // 
