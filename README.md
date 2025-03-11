@@ -49,7 +49,7 @@
 - **Encapsulation**: การเก็บข้อมูลนักศึกษาและอาจารย์ไว้ในคลาสและเข้าถึงข้อมูลได้ผ่านเมธอดต่างๆ
 - **Abstraction**: ใช้คลาส `Person` เป็นคลาสฐานเพื่อเก็บข้อมูลพื้นฐาน และมีคลาสย่อยที่สืบทอดมาจาก `Person` เช่น `Student` และ `Advisor`
 - **Polymorphism**: เมธอด `DisplayInfo()` ในคลาส `Student` และ `Advisor` มีพฤติกรรมที่แตกต่างกัน
-- **Inheritance**: คลาส `Student` และ `Advisor` สืบทอดคุณสมบัติจากคลาส `Person`
+- **Inheritance**: คลาส `Student` และ `Advisor` สืบทอดคุณสมบัติจากคลาส Person
 
 
 
